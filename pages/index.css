@@ -25,3 +25,10 @@
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 @import url(../blocks/places/__image/places__image.css);
 
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/__title-label/people__title-label.css);
+@import url(../blocks/people/__title/people__title.css);
+@import url(../blocks/people/__table/people__table.css);
+@import url(../blocks/people/__table-column/people__table-column.css);
+@import url(../blocks/people/__heading/people__heading.css);
+@import url(../blocks/people/__text/people__text.css);
