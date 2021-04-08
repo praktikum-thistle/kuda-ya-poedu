@@ -1,11 +1,9 @@
 .people {
-  max-width: 1440px;
   margin: 130px auto 0;
   padding: 25px 75px 140px;
   box-sizing: border-box;
 }
 
-/* я пока что так набросал от руки */
 
 @media (max-width: 1024px) {
   .people {
@@ -15,6 +13,7 @@
 
 @media (max-width: 500px) {
   .people {
-    padding: 25px 20px 60px;
+    margin: 100px auto 0;
+    padding: 25px 25px 60px;
   }
 }

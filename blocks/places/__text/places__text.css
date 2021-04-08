@@ -11,3 +11,9 @@
     padding: 50px 60px;
   }
 }
+
+@media (max-width: 320px) {
+  .places__text {
+    padding: 50px 25px;
+  }
+}

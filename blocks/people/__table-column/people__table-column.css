@@ -1,5 +1,6 @@
 .people__table-column {
   max-width: 270px;
+  margin: 0;
 }
 
 @media (max-width: 1024px) {
