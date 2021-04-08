@@ -7,6 +7,7 @@
 
 @media (max-width: 320px) {
   .places__image {
-    max-width: 100%
+    width: 320px;
+    height: 320px;
   }
 }

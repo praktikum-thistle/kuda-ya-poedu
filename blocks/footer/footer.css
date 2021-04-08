@@ -6,3 +6,15 @@
   min-height: 700px;
   font-weight: 700;
 }
+
+@media (max-width: 450px) {
+  .footer {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    min-height: 320px;
+  }
+}

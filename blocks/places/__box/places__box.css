@@ -23,3 +23,17 @@
       'text';
   }
 }
+
+@media (max-width: 450px) {
+  .places__box {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 400px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__box {
+    grid-template-columns: repeat(1, 320px);
+    grid-template-rows: none;
+  }
+}

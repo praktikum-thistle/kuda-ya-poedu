@@ -6,9 +6,9 @@
 
 }
 
-@media (max-width: 440px) {
+@media (max-width: 500px) {
   .people__title {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 

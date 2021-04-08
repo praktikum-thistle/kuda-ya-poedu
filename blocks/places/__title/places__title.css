@@ -6,3 +6,15 @@
   margin: 0 0 30px;
   flex: 1 1 auto;
 }
+
+@media (max-width: 500px) {
+  .places__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__title {
+    font-size: 26px;
+  }
+}
