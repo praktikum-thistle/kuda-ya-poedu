@@ -1,5 +1,11 @@
 .people__table {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 60px;
+}
+
+@media (max-width: 1024px) {
+  .people__table {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

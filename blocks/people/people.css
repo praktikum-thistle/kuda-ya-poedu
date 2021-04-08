@@ -1,8 +1,14 @@
 .people {
   max-width: 1440px;
   margin: 130px auto 0;
-  padding: 25px 75px 125px;
+  padding: 25px 75px 140px;
   box-sizing: border-box;
 }
 
 /* я пока что так набросал от руки */
+
+@media (max-width: 1024px) {
+  .people {
+    padding: 25px 60px 140px;
+  }
+}

@@ -8,3 +8,9 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
+}
