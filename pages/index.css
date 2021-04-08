@@ -32,3 +32,6 @@
 @import url(../blocks/people/__table-column/people__table-column.css);
 @import url(../blocks/people/__heading/people__heading.css);
 @import url(../blocks/people/__text/people__text.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);

@@ -2,8 +2,9 @@
   max-width: 1440px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 60px;
+  gap: 90px;
   align-items: center;
-  padding: 100px 75px;
+  padding: 95px 80px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
