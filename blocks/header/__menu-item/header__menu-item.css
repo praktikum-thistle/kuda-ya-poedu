@@ -1,3 +1,9 @@
 .header__menu-item {
   margin-right: 40px;
 }
+
+@media (max-width: 600px) {
+  .header__menu-item {
+    margin-bottom: 15px;
+  }
+}

@@ -8,22 +8,23 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 1024px) {
+  .intro {
+    padding: 75px 60px;
+    gap: 70px;
+  }
+}
+
 @media (max-width: 768px) {
   .intro {
     grid-template-columns: 1fr;
+    padding: 50px 40px;
   }
 }
 
 @media (max-width: 500px) {
   .intro {
     gap: 50px;
-    padding: 75px 25px;
-  }
-}
-
-@media (max-width: 320px) {
-  .intro {
-    gap: 50px;
-    padding: 50px 25px;
+    padding: 40px 25px;
   }
 }

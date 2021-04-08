@@ -1,25 +1,23 @@
 .people {
-  margin: 130px auto 0;
-  padding: 25px 75px 140px;
+  padding: 125px 75px;
   box-sizing: border-box;
 }
 
 
 @media (max-width: 1024px) {
   .people {
-    padding: 25px 60px 140px;
+    padding: 80px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .people {
+    padding: 25px 40px 60px;
   }
 }
 
 @media (max-width: 600px) {
   .people {
-    margin: 100px auto 0;
     padding: 25px 25px 60px;
   }
 }
-
-@media (max-width: 600px) {
-  .people {
-    margin: 50px auto 0;
-  }
-}  

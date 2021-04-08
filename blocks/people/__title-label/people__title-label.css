@@ -3,6 +3,7 @@
   color: #fecda7;
   text-transform: uppercase;
   margin: 0 0 30px;
-  font-size: 12px;
-  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 1;
+  /*letter-spacing:;*/
 }

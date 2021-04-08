@@ -4,10 +4,3 @@
   object-fit: cover;
   grid-area: image;
 }
-
-@media (max-width: 320px) {
-  .places__image {
-    width: 320px;
-    height: 320px;
-  }
-}
