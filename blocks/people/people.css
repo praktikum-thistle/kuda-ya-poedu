@@ -12,3 +12,9 @@
     padding: 25px 60px 140px;
   }
 }
+
+@media (max-width: 500px) {
+  .people {
+    padding: 25px 20px 60px;
+  }
+}
