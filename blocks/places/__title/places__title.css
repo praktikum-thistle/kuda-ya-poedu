@@ -7,14 +7,14 @@
   flex: 1 1 auto;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .places__title {
     font-size: 30px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .places__title {
-    font-size: 26px;
+    font-size: 30px;
   }
 }

@@ -1,0 +1,9 @@
+.header__link_report {
+  color: inherit;
+  transition: color 300ms;
+}
+
+.header__link_report:hover {
+  color: red;
+  opacity: 1;
+}

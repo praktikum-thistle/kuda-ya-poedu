@@ -1,0 +1,27 @@
+.places__text_column_left {
+  padding-left: calc(100% - 640px);
+}
+
+@media (max-width: 1440px) {
+  .places__text_column_left {
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .places__text_column_left {
+    padding: 50px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places__text_column_left {
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .places__text_column_left {
+    padding: 30px 25px;
+  }
+}

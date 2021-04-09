@@ -9,9 +9,16 @@
   grid-template-areas: 'text image';
 }
 
+@media (max-width: 1024px) {
+  .places__box {
+
+  }
+}
+
 @media (max-width: 768px) {
   .places__box {
     grid-template-columns: 1fr;
+    grid-template-rows: 80vw;
     grid-template-areas:
       'image'
       'text';
@@ -24,9 +31,3 @@
   }
 }
 
-@media (max-width: 450px) {
-  .places__box {
-    grid-template-columns: 1fr;
-    grid-template-rows: 400px;
-  }
-}
